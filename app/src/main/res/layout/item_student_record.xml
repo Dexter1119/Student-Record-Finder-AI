@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_faculty_card"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp">
+
+    <!-- TOP ROW -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- NAME -->
+        <TextView
+            android:id="@+id/txtStudentName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rahul Sharma"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/faculty_text_dark"/>
+
+        <!-- RISK DOT -->
+        <View
+            android:id="@+id/viewRiskDot"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/bg_risk_dot"/>
+    </LinearLayout>
+
+    <!-- META -->
+    <TextView
+        android:id="@+id/txtStudentMeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll 101 • Computer Science"
+        android:textSize="13sp"
+        android:textColor="@color/faculty_text_light"
+        android:layout_marginTop="6dp"/>
+
+    <!-- ATTENDANCE -->
+    <TextView
+        android:id="@+id/txtAttendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance: 88%"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/faculty_text_dark"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/btnDelete"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_delete"
+        android:tint="@color/error_red"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</LinearLayout>

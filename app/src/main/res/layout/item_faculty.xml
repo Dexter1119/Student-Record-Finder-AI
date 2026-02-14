@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:background="@drawable/bg_card"
+    android:layout_marginBottom="12dp">
+
+    <!-- FACULTY NAME -->
+    <TextView
+        android:id="@+id/txtFacultyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_main"
+        android:text="Faculty Name" />
+
+    <!-- DEPARTMENT -->
+    <TextView
+        android:id="@+id/txtFacultyDept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginTop="2dp"
+        android:text="Department" />
+
+    <!-- STATUS -->
+    <TextView
+        android:id="@+id/txtFacultyStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PENDING APPROVAL"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        android:layout_marginTop="6dp" />
+
+    <!-- ACTION BUTTONS -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnApprove"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Approve"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_primary_button"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnReject"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginStart="10dp"
+            android:text="Reject"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_outline_button"
+            android:textColor="@color/red" />
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_delete"
+            android:tint="@color/error_red"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="Delete Faculty"/>
+
+    </LinearLayout>
+
+</LinearLayout>

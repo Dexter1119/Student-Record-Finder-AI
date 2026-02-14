@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- ================================================= -->
+        <!-- EXECUTIVE HEADER -->
+        <!-- ================================================= -->
+
+        <TextView
+            android:text="Institution Control Center"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Enterprise-level academic intelligence and system monitoring"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- ================================================= -->
+        <!-- AI COMMAND CENTER -->
+        <!-- ================================================= -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ai_card"
+            android:padding="24dp"
+            android:orientation="vertical"
+            android:elevation="8dp">
+
+            <TextView
+                android:text="AI EXECUTIVE INSIGHT"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txtAIInsight"
+                android:text="Analyzing institutional metrics..."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <!-- ================================================= -->
+        <!-- KEY PERFORMANCE INDICATORS -->
+        <!-- ================================================= -->
+
+        <TextView
+            android:text="Institutional KPIs"
+            android:textStyle="bold"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="12dp">
+
+            <!-- STUDENTS -->
+            <LinearLayout
+                android:id="@+id/cardStudents"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/bg_stat_card"
+                android:padding="22dp"
+                android:orientation="vertical"
+                android:elevation="6dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="TOTAL STUDENTS"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/txtTotalStudents"
+                    android:text="0"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <!-- FACULTY -->
+            <LinearLayout
+                android:id="@+id/cardFaculty"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_stat_card"
+                android:padding="22dp"
+                android:orientation="vertical"
+                android:elevation="6dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="TOTAL FACULTY"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/txtTotalFaculty"
+                    android:text="0"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- ================================================= -->
+        <!-- FACULTY GOVERNANCE STATUS -->
+        <!-- ================================================= -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txtActiveFaculty"
+                android:text="Active: 0"
+                android:textStyle="bold"
+                android:textColor="@color/green"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txtPendingFaculty"
+                android:text="Pending: 0"
+                android:textStyle="bold"
+                android:textColor="@color/orange"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <!-- ================================================= -->
+        <!-- ACADEMIC RISK MONITOR -->
+        <!-- ================================================= -->
+
+        <TextView
+            android:text="Academic Risk Monitor"
+            android:textStyle="bold"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:elevation="4dp">
+
+            <TextView
+                android:text="Students Below 75% Attendance"
+                android:textColor="@color/error_red"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txtAtRiskStudents"
+                android:text="0"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/error_red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <!-- ================================================= -->
+        <!-- SYSTEM HEALTH INDEX -->
+        <!-- ================================================= -->
+
+        <TextView
+            android:text="System Health Index"
+            android:textStyle="bold"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/txtSystemHealth"
+                android:text="100%"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:id="@+id/progressSystemHealth"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="10dp"
+                android:max="100"
+                android:progress="100"
+                android:progressTint="@color/primary"/>
+
+        </LinearLayout>
+
+        <!-- ================================================= -->
+        <!-- QUICK ADMIN ACTIONS -->
+        <!-- ================================================= -->
+
+        <TextView
+            android:text="Administrative Controls"
+            android:textStyle="bold"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnManageFaculty"
+                android:text="Manage Faculty"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_primary_button"
+                android:textColor="@color/white"
+                android:layout_height="48dp" />
+
+            <Button
+                android:id="@+id/btnViewStudents"
+                android:text="View Students"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/bg_outline_button"
+                android:layout_height="48dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+</ScrollView>

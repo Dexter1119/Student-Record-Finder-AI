@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- ================= TITLE ================= -->
+        <TextView
+            android:text="Add Faculty"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_main"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- ================= NAME ================= -->
+        <EditText
+            android:id="@+id/etFacultyName"
+            android:hint="Faculty Name"
+            android:inputType="textPersonName"
+            android:importantForAutofill="yes"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- ================= EMAIL ================= -->
+        <EditText
+            android:id="@+id/etFacultyEmail"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="yes"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- ================= PASSWORD ================= -->
+        <EditText
+            android:id="@+id/etFacultyPassword"
+            android:hint="Temporary Password"
+            android:inputType="textPassword"
+            android:importantForAutofill="no"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- ================= DEPARTMENT ================= -->
+        <EditText
+            android:id="@+id/etFacultyDept"
+            android:hint="Department"
+            android:inputType="textCapWords"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- ================= CREATE BUTTON ================= -->
+        <Button
+            android:id="@+id/btnCreateFaculty"
+            android:text="Create Faculty"
+            android:textAllCaps="false"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

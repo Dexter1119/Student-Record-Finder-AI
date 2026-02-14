@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Branding -->
+<!--    <color name="primary">#2B4BEE</color>-->
+    <color name="primary_dark">#1A36B0</color>
+
+    <!-- Surfaces & Backgrounds -->
+<!--    <color name="bg_light">#F6F6F8</color>-->
+    <color name="surface">#FFFFFF</color>
+    <color name="border">#E0E0E0</color>
+
+    <!-- Text Colors -->
+<!--    <color name="text_main">#0D101B</color>-->
+<!--    <color name="text_secondary">#72747D</color>-->
+
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FF9800</color>
+
+    <color name="bg_light">#F5F7FA</color>
+    <color name="primary">#2C6E85</color>
+    <color name="text_main">#1F2933</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="bg_primary_button">#2C6E85</color>
+    <color name="bg_input_field">#F5F7FA</color>
+    <color name="green">#22C55E</color>
+    <color name="red">#E53935</color>
+    <color name="faculty_primary">#2F6F7E</color>
+    <color name="faculty_card">#E8F3F6</color>
+    <color name="faculty_risk">#D32F2F</color>
+    <color name="faculty_text_dark">#263238</color>
+    <color name="faculty_text_light">#607D8B</color>
+
+    <!-- Faculty-specific text -->
+
+    <!-- ========================= -->
+    <!-- STATUS / ALERT COLORS -->
+    <!-- ========================= -->
+
+    <color name="success">#2E7D32</color>
+    <color name="warning">#F9A825</color>
+    <color name="error">#C62828</color>
+
+    !-- ========================= -->
+    <!-- BOTTOM NAV COLORS -->
+    <!-- ========================= -->
+    <color name="bottom_nav_active">#1976D2</color>
+    <color name="bottom_nav_inactive">#9E9E9E</color>
+
+    <!-- ========================= -->
+    <!-- CARD / UI ELEMENT COLORS -->
+    <!-- ========================= -->
+    <color name="card_bg">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="error_red">#D32F2F</color>
+    <!-- Light background color -->
+    <color name="background_light">#F8F9FA</color>
+
+    <!-- Light gray for switch track / progress track -->
+    <color name="light_gray">#D3D3D3</color>
+<!--    <color name="red">#E53935</color>-->
+
+
+
+</resources>

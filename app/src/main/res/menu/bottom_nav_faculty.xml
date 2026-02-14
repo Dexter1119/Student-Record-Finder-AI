@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Dashboard"/>
+
+    <item
+        android:id="@+id/nav_records"
+        android:icon="@drawable/ic_search"
+        android:title="Records"/>
+
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/ic_ai"
+        android:title="AI Chat"/>
+
+    <item
+        android:id="@+id/nav_alerts"
+        android:icon="@drawable/ic_notification"
+        android:title="Alerts"/>
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_admin_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Admin"/>
+
+    <item
+        android:id="@+id/nav_admin_students"
+        android:icon="@drawable/ic_students"
+        android:title="Students"/>
+
+    <item
+        android:id="@+id/nav_admin_faculty"
+        android:icon="@drawable/ic_faculty"
+        android:title="Faculty"/>
+
+    <item
+        android:id="@+id/nav_admin_ai"
+        android:icon="@drawable/ic_ai"
+        android:title="AI"/>
+
+<!--    <item-->
+<!--        android:id="@+id/nav_admin_more"-->
+<!--        android:icon="@drawable/ic_more"-->
+<!--        android:title="More"/>-->
+</menu>
